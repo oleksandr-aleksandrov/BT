@@ -1,0 +1,28 @@
+/* --== /Contact Page ==-- */
+
+@media only screen and (max-width: 1200px) {
+  .contact-information {
+    .contact-info-wrap {
+      padding: 70px 20px;
+    }
+  }
+  .contact-us-form {
+    padding: 70px 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header-main-menu {
+    li {
+      width: 100%;
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .current-menu-item {
+      border: 0;
+      background-color: rgba($main-color, .5);
+    }
+  }
+}
